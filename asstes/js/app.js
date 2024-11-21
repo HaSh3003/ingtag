@@ -1,5 +1,17 @@
 let partners = document.getElementById('partners')
 let imgs = document.querySelectorAll('.logos img')
+let listLinks = document.getElementById('listLinks');
+let menu = document.getElementById('menu');
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    listLinks.addEventListener('click', function () {
+        listLinks.classList.toggle('active');
+        menu.classList.toggle('active');
+    });
+    
+});
 
 
 
@@ -63,3 +75,4 @@ projects.forEach(project => {
     `
     projectContainer.innerHTML += Projects
 })
+
