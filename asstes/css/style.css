@@ -224,9 +224,9 @@ nav .contact_us_button a:hover {
     margin-top: 20px;
     justify-content: space-between;
     align-items: center;
-    animation: websiteTitleImgAnimation 5s linear;
+/*     animation: websiteTitleImgAnimation 5s linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 40%; */
 }
  .col-md-7 img  {
         width: 100%;
@@ -247,9 +247,9 @@ nav .contact_us_button a:hover {
     background-color: var(--yellow);
     border-radius: 50%;
     z-index: -1;
-    animation: shapesAnimation 5s linear;
+/*     animation: shapesAnimation 5s linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 50%;
+    animation-range: entry 0% cover 50%; */
     opacity: 0.6;
  }
 .col-md-5 p{ 
