@@ -1,17 +1,15 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Lemonada:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 
+
+body { 
+    
+
+}
 .content { 
     min-height: 100vh !important;
 }
-#section_title { 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    font-family: var(--El_messiri_Font);
-}
+
 .title { 
     position: relative;
     width: 70%;
@@ -36,21 +34,34 @@
     animation: float 10s infinite;
     z-index: -4;
 } */
+i { 
+    font-family: FontAwesome !important;
 
+}
 * { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none !important;
+    font-family: "Cairo", sans-serif !important;
+    font-weight:900 !important;
 }
 :root { 
-    --El_messiri_Font : "El Messiri", sans-serif;
-    --Lemonada_Font : "Lemonada", cursive;
+    --El_messiri_Font :"Cairo", sans-serif;
+    --Lemonada_Font : "Cairo", sans-serif;
     --dark-blue-color : #0c0819;
     --green : #26d367;
     --yellow : #ffc107;
 
+}
+#section_title { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: var(--El_messiri_Font);
 }
 .listLinks{
     cursor: pointer;
