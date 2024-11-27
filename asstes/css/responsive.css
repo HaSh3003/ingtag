@@ -29,7 +29,7 @@ body {
     }
     .carousel-item img {
         height: 300px;
-        object-fit: cover;
+        object-fit:fill;
     }
 
 
@@ -90,7 +90,7 @@ body {
 
     .col-md-5 #hero-title::before{ 
         margin-top: 50%;
-        width: 900px;
+        width: 800px;
     }
 
 
